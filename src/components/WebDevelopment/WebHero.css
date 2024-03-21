@@ -1,0 +1,6 @@
+.app__web-hero{
+    background-image: url('../../assets/new/wb-bg.svg');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

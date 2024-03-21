@@ -1,0 +1,67 @@
+.protfolio-isotop .section-title h2 {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 15px;
+  }
+  
+  .isotop-wrapper {
+    overflow: hidden;
+    border-radius: 6px;
+  }
+  
+  .isotop-wrapper .full-width .example-image {
+    transform: scale(1);
+    transition: .5s;
+  }
+  
+  .isotop-wrapper:hover .full-width .example-image {
+    transform: scale(1.2);
+    filter: grayscale(10%);
+  }
+  
+  .isotop-wrapper:hover .isotop-overlay-content {
+    opacity: 1;
+    top: 50%;
+    transition: .5s ease;
+    transition-delay: .2s;
+  }
+  
+  .isotop-wrapper:hover .isotop-overlay-wrapper:after {
+    -webkit-clip-path: circle(200% at 50% 100%);
+    clip-path: circle(200% at 50% 100%);
+    opacity: 0.6;
+    transition: 1s;
+  }
+  
+  .isotop-overlay-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .isotop-overlay-wrapper:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, #9700ff, #a600ff, #b400ff, #c100ff, #cd00ff);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-clip-path: circle(50% at 50% 100%);
+    clip-path: circle(50% at 50% 100%);
+    opacity: 0;
+  }
+  
+  .isotop-overlay-wrapper .isotop-overlay-content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc(50% - 100px);
+    opacity: 0;
+    transform: translateY(-50%);
+  }

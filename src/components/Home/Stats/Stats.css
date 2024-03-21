@@ -1,0 +1,19 @@
+/* .app__stats{
+  background-image: url('../../../assets/new/bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.single-counter-two {
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .single-counter-two:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(249, 197, 202, 0.53);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(249, 197, 202, 0.53);
+    box-shadow: 0px 0px 15px 0px rgba(249, 197, 202, 0.53);
+    border: 1px solid #f9c5ca;
+  }

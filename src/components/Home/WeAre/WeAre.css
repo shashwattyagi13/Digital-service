@@ -1,0 +1,42 @@
+.we-are-img{
+    position: relative;
+}
+
+.we-are-img .h2-like,
+.we-are-img .h2-heart,
+.we-are-img .h2-message,
+.we-are-img .h2-square,
+.we-are-img .moving-circle,
+.we-are-img .moving-circle-right {
+  position: absolute;
+}
+
+.we-are-img .h2-like {
+  right: 20px;
+  top: 80px;
+}
+
+.we-are-img .h2-heart {
+  top: 75px;
+  left: 10px;
+}
+
+.we-are-img .h2-message {
+  top: 100px;
+  left: 30%;
+}
+
+.we-are-img .h2-square {
+  top: 60px;
+  left: 73%;
+}
+
+.we-are-img .moving-circle {
+  top: 40%;
+  right: 25px;
+}
+
+.we-are-img .moving-circle-right {
+  bottom: 80px;
+  left: 0px;
+}

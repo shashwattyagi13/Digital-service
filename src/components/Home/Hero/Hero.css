@@ -1,0 +1,205 @@
+.app__hero{
+    background-color: #15160e;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.square-animation{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 2px;
+    left: 10%;
+    top:10%;
+}
+
+.square-animation .square-animation-child{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.square-animation-2{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 2px 2px 0 0;
+    left: 35%;
+    bottom:20%;
+}
+
+.square-animation-2 .square-animation-child-2{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.square-animation-3{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 0 0 2px 2px;
+    left: 50%;
+    bottom:50%;
+}
+
+.square-animation-3 .square-animation-child-3{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.circle-animation{
+    background: linear-gradient(to right, #EF0D75, #FFCC00);
+    padding: 2px;
+    right: 10%;
+    top:10%;
+}
+
+.circle-animation .circle-animation-child{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.half-circle-animation{
+    background: linear-gradient(to right, #EF0D75, #FFCC00);
+    padding: 4px 4px 0 0;
+    left: 2%;
+    bottom:28%;
+}
+
+.half-circle-animation .half-circle-animation-child{
+    background: #4039D4;
+    padding: 0.5rem;
+}
+
+.bubble-animation{
+    left: 50%;
+    top:20%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .square-animation{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px;
+        left: 10%;
+        top:10%;
+    }
+    
+    .square-animation .square-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-2{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px 2px 0 0;
+        left: 35%;
+        bottom:20%;
+    }
+    
+    .square-animation-2 .square-animation-child-2{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-3{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 0 0 2px 2px;
+        left: 90%;
+        bottom:30%;
+    }
+    
+    .square-animation-3 .square-animation-child-3{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    .bubble-animation{
+        left: 50%;
+        top:15%;
+    }
+    
+    .circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 2px;
+        right: 10%;
+        top:10%;
+    }
+    
+    .circle-animation .circle-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .half-circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 4px 4px 0 0;
+        left: 4%;
+        bottom:10%;
+    }
+    
+    .half-circle-animation .half-circle-animation-child{
+        background: #4039D4;
+        padding: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .square-animation{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px;
+        left: 10%;
+        top:10%;
+    }
+    
+    .square-animation .square-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-2{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px 2px 0 0;
+        left: 35%;
+        bottom:15%;
+    }
+    
+    .square-animation-2 .square-animation-child-2{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-3{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 0 0 2px 2px;
+        left: 90%;
+        bottom:30%;
+    }
+    
+    .square-animation-3 .square-animation-child-3{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    .bubble-animation{
+        left: 50%;
+        top:15%;
+    }
+    
+    .circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 2px;
+        right: 10%;
+        top:10%;
+    }
+    
+    .circle-animation .circle-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .half-circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 4px 4px 0 0;
+        left: 90%;
+        bottom:50%;
+    }
+    
+    .half-circle-animation .half-circle-animation-child{
+        background: #4039D4;
+        padding: 0.5rem;
+    }
+  }

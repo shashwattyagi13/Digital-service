@@ -1,0 +1,596 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Home/Hero/Hero.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.app__hero{
+    background-color: #15160e;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.square-animation{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 2px;
+    left: 10%;
+    top:10%;
+}
+
+.square-animation .square-animation-child{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.square-animation-2{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 2px 2px 0 0;
+    left: 35%;
+    bottom:20%;
+}
+
+.square-animation-2 .square-animation-child-2{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.square-animation-3{
+    background: linear-gradient(to right, #EF0D75, #FE6407);
+    padding: 0 0 2px 2px;
+    left: 50%;
+    bottom:50%;
+}
+
+.square-animation-3 .square-animation-child-3{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.circle-animation{
+    background: linear-gradient(to right, #EF0D75, #FFCC00);
+    padding: 2px;
+    right: 10%;
+    top:10%;
+}
+
+.circle-animation .circle-animation-child{
+    background: #4039D4;
+    padding: 0.2rem;
+}
+
+.half-circle-animation{
+    background: linear-gradient(to right, #EF0D75, #FFCC00);
+    padding: 4px 4px 0 0;
+    left: 2%;
+    bottom:28%;
+}
+
+.half-circle-animation .half-circle-animation-child{
+    background: #4039D4;
+    padding: 0.5rem;
+}
+
+.bubble-animation{
+    left: 50%;
+    top:20%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .square-animation{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px;
+        left: 10%;
+        top:10%;
+    }
+    
+    .square-animation .square-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-2{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px 2px 0 0;
+        left: 35%;
+        bottom:20%;
+    }
+    
+    .square-animation-2 .square-animation-child-2{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-3{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 0 0 2px 2px;
+        left: 90%;
+        bottom:30%;
+    }
+    
+    .square-animation-3 .square-animation-child-3{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    .bubble-animation{
+        left: 50%;
+        top:15%;
+    }
+    
+    .circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 2px;
+        right: 10%;
+        top:10%;
+    }
+    
+    .circle-animation .circle-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .half-circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 4px 4px 0 0;
+        left: 4%;
+        bottom:10%;
+    }
+    
+    .half-circle-animation .half-circle-animation-child{
+        background: #4039D4;
+        padding: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .square-animation{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px;
+        left: 10%;
+        top:10%;
+    }
+    
+    .square-animation .square-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-2{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 2px 2px 0 0;
+        left: 35%;
+        bottom:15%;
+    }
+    
+    .square-animation-2 .square-animation-child-2{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .square-animation-3{
+        background: linear-gradient(to right, #EF0D75, #FE6407);
+        padding: 0 0 2px 2px;
+        left: 90%;
+        bottom:30%;
+    }
+    
+    .square-animation-3 .square-animation-child-3{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    .bubble-animation{
+        left: 50%;
+        top:15%;
+    }
+    
+    .circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 2px;
+        right: 10%;
+        top:10%;
+    }
+    
+    .circle-animation .circle-animation-child{
+        background: #4039D4;
+        padding: 0.2rem;
+    }
+    
+    .half-circle-animation{
+        background: linear-gradient(to right, #EF0D75, #FFCC00);
+        padding: 4px 4px 0 0;
+        left: 90%;
+        bottom:50%;
+    }
+    
+    .half-circle-animation .half-circle-animation-child{
+        background: #4039D4;
+        padding: 0.5rem;
+    }
+  }
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url(/_next/static/media/ajax-loader.0b80f665.gif) center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url(/_next/static/media/slick.25572f22.eot);
+    src: url(/_next/static/media/slick.25572f22.eot?#iefix) format('embedded-opentype'), url(/_next/static/media/slick.653a4cbb.woff) format('woff'), url(/_next/static/media/slick.6aa1ee46.ttf) format('truetype'), url(/_next/static/media/slick.f895cfdf.svg#slick) format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Home/Stats/Stats.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+/* .app__stats{
+  background-image: url('../../../assets/new/bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.single-counter-two {
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .single-counter-two:hover {
+    box-shadow: 0px 0px 15px 0px rgba(249, 197, 202, 0.53);
+    border: 1px solid #f9c5ca;
+  }
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Home/WeAre/WeAre.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.we-are-img{
+    position: relative;
+}
+
+.we-are-img .h2-like,
+.we-are-img .h2-heart,
+.we-are-img .h2-message,
+.we-are-img .h2-square,
+.we-are-img .moving-circle,
+.we-are-img .moving-circle-right {
+  position: absolute;
+}
+
+.we-are-img .h2-like {
+  right: 20px;
+  top: 80px;
+}
+
+.we-are-img .h2-heart {
+  top: 75px;
+  left: 10px;
+}
+
+.we-are-img .h2-message {
+  top: 100px;
+  left: 30%;
+}
+
+.we-are-img .h2-square {
+  top: 60px;
+  left: 73%;
+}
+
+.we-are-img .moving-circle {
+  top: 40%;
+  right: 25px;
+}
+
+.we-are-img .moving-circle-right {
+  bottom: 80px;
+  left: 0px;
+}

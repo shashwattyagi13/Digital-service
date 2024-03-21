@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/matchmediaquery";
+exports.ids = ["vendor-chunks/matchmediaquery"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/matchmediaquery/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/matchmediaquery/index.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\n\nvar staticMatch = (__webpack_require__(/*! css-mediaquery */ \"(ssr)/./node_modules/css-mediaquery/index.js\").match);\nvar dynamicMatch = typeof window !== 'undefined' ? window.matchMedia : null;\n\n// our fake MediaQueryList\nfunction Mql(query, values, forceStatic){\n  var self = this;\n  var mql;\n\n  // matchMedia will return null in FF when it's called in a hidden iframe\n  // ref: https://stackoverflow.com/a/12330568\n  if(dynamicMatch && !forceStatic) mql = dynamicMatch.call(window, query);\n\n  if (mql) {\n    this.matches = mql.matches;\n    this.media = mql.media;\n    // TODO: is there a time it makes sense to remove this listener?\n    mql.addListener(update);\n  } else {\n    this.matches = staticMatch(query, values);\n    this.media = query;\n  }\n\n  this.addListener = addListener;\n  this.removeListener = removeListener;\n  this.dispose = dispose;\n\n  function addListener(listener){\n    if(mql){\n      mql.addListener(listener);\n    }\n  }\n\n  function removeListener(listener){\n    if(mql){\n      mql.removeListener(listener);\n    }\n  }\n\n  // update ourselves!\n  function update(evt){\n    self.matches = evt.matches;\n    self.media = evt.media;\n  }\n\n  function dispose(){\n    if(mql){\n      mql.removeListener(update);\n    }\n  }\n}\n\nfunction matchMedia(query, values, forceStatic){\n  return new Mql(query, values, forceStatic);\n}\n\nmodule.exports = matchMedia;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbWF0Y2htZWRpYXF1ZXJ5L2luZGV4LmpzIiwibWFwcGluZ3MiOiJBQUFhOztBQUViLGtCQUFrQixpR0FBK0I7QUFDakQ7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxJQUFJO0FBQ0o7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWV0YWJycy8uL25vZGVfbW9kdWxlcy9tYXRjaG1lZGlhcXVlcnkvaW5kZXguanM/ODY0YSJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbnZhciBzdGF0aWNNYXRjaCA9IHJlcXVpcmUoJ2Nzcy1tZWRpYXF1ZXJ5JykubWF0Y2g7XG52YXIgZHluYW1pY01hdGNoID0gdHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgPyB3aW5kb3cubWF0Y2hNZWRpYSA6IG51bGw7XG5cbi8vIG91ciBmYWtlIE1lZGlhUXVlcnlMaXN0XG5mdW5jdGlvbiBNcWwocXVlcnksIHZhbHVlcywgZm9yY2VTdGF0aWMpe1xuICB2YXIgc2VsZiA9IHRoaXM7XG4gIHZhciBtcWw7XG5cbiAgLy8gbWF0Y2hNZWRpYSB3aWxsIHJldHVybiBudWxsIGluIEZGIHdoZW4gaXQncyBjYWxsZWQgaW4gYSBoaWRkZW4gaWZyYW1lXG4gIC8vIHJlZjogaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzEyMzMwNTY4XG4gIGlmKGR5bmFtaWNNYXRjaCAmJiAhZm9yY2VTdGF0aWMpIG1xbCA9IGR5bmFtaWNNYXRjaC5jYWxsKHdpbmRvdywgcXVlcnkpO1xuXG4gIGlmIChtcWwpIHtcbiAgICB0aGlzLm1hdGNoZXMgPSBtcWwubWF0Y2hlcztcbiAgICB0aGlzLm1lZGlhID0gbXFsLm1lZGlhO1xuICAgIC8vIFRPRE86IGlzIHRoZXJlIGEgdGltZSBpdCBtYWtlcyBzZW5zZSB0byByZW1vdmUgdGhpcyBsaXN0ZW5lcj9cbiAgICBtcWwuYWRkTGlzdGVuZXIodXBkYXRlKTtcbiAgfSBlbHNlIHtcbiAgICB0aGlzLm1hdGNoZXMgPSBzdGF0aWNNYXRjaChxdWVyeSwgdmFsdWVzKTtcbiAgICB0aGlzLm1lZGlhID0gcXVlcnk7XG4gIH1cblxuICB0aGlzLmFkZExpc3RlbmVyID0gYWRkTGlzdGVuZXI7XG4gIHRoaXMucmVtb3ZlTGlzdGVuZXIgPSByZW1vdmVMaXN0ZW5lcjtcbiAgdGhpcy5kaXNwb3NlID0gZGlzcG9zZTtcblxuICBmdW5jdGlvbiBhZGRMaXN0ZW5lcihsaXN0ZW5lcil7XG4gICAgaWYobXFsKXtcbiAgICAgIG1xbC5hZGRMaXN0ZW5lcihsaXN0ZW5lcik7XG4gICAgfVxuICB9XG5cbiAgZnVuY3Rpb24gcmVtb3ZlTGlzdGVuZXIobGlzdGVuZXIpe1xuICAgIGlmKG1xbCl7XG4gICAgICBtcWwucmVtb3ZlTGlzdGVuZXIobGlzdGVuZXIpO1xuICAgIH1cbiAgfVxuXG4gIC8vIHVwZGF0ZSBvdXJzZWx2ZXMhXG4gIGZ1bmN0aW9uIHVwZGF0ZShldnQpe1xuICAgIHNlbGYubWF0Y2hlcyA9IGV2dC5tYXRjaGVzO1xuICAgIHNlbGYubWVkaWEgPSBldnQubWVkaWE7XG4gIH1cblxuICBmdW5jdGlvbiBkaXNwb3NlKCl7XG4gICAgaWYobXFsKXtcbiAgICAgIG1xbC5yZW1vdmVMaXN0ZW5lcih1cGRhdGUpO1xuICAgIH1cbiAgfVxufVxuXG5mdW5jdGlvbiBtYXRjaE1lZGlhKHF1ZXJ5LCB2YWx1ZXMsIGZvcmNlU3RhdGljKXtcbiAgcmV0dXJuIG5ldyBNcWwocXVlcnksIHZhbHVlcywgZm9yY2VTdGF0aWMpO1xufVxuXG5tb2R1bGUuZXhwb3J0cyA9IG1hdGNoTWVkaWE7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/matchmediaquery/index.js\n");
+
+/***/ })
+
+};
+;

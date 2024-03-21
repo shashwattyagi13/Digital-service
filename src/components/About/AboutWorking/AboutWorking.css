@@ -1,0 +1,74 @@
+.about-working-process {
+    background-image: url("../../../assets/img/About-Us-Recovered.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px 150px 0px;
+  }
+
+  .working-card {
+    padding: 40px 0px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+  .working-card:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .working-margin {
+    margin-top: 80px;
+  }
+  
+  .working-card-icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  
+  .working-card-icon i {
+    font-size: 40px;
+  }
+  
+  .working-card-icon svg {
+    max-height: 40px;
+    max-width: 40px;
+  }
+  
+  .working-card-icon img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .h3-wc-area {
+    z-index: 1;
+  }
+  
+  .working-card-arow2 {
+    position: absolute;
+    top: 125px;
+    left: 60%;
+    z-index: -1;
+  }
+  
+  .working-card-arow3,
+  .working-card-arow1 {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    z-index: -1;
+  }
+
+  .about-padding {
+    padding-bottom: 200px;
+  }
+
+  .h3-wc-area {
+    z-index: 1;
+  }
